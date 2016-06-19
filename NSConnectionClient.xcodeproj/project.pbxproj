@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A273DD4B1D1692040026F267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A273DD4A1D1692040026F267 /* AppDelegate.m */; };
+		A273DD4E1D1692040026F267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A273DD4D1D1692040026F267 /* main.m */; };
+		A273DD501D1692040026F267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273DD4F1D1692040026F267 /* Assets.xcassets */; };
+		A273DD531D1692040026F267 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A273DD511D1692040026F267 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A273DD461D1692040026F267 /* NSConnectionClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSConnectionClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A273DD491D1692040026F267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A273DD4A1D1692040026F267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A273DD4D1D1692040026F267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A273DD4F1D1692040026F267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A273DD521D1692040026F267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A273DD541D1692040026F267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A273DD5B1D1692A80026F267 /* Conversationable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conversationable.h; path = NSConnectionServer/Conversationable.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A273DD431D1692040026F267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A273DD3D1D1692040026F267 = {
+			isa = PBXGroup;
+			children = (
+				A273DD481D1692040026F267 /* NSConnectionClient */,
+				A273DD471D1692040026F267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A273DD471D1692040026F267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A273DD461D1692040026F267 /* NSConnectionClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A273DD481D1692040026F267 /* NSConnectionClient */ = {
+			isa = PBXGroup;
+			children = (
+				A273DD491D1692040026F267 /* AppDelegate.h */,
+				A273DD4A1D1692040026F267 /* AppDelegate.m */,
+				A273DD5B1D1692A80026F267 /* Conversationable.h */,
+				A273DD4F1D1692040026F267 /* Assets.xcassets */,
+				A273DD511D1692040026F267 /* MainMenu.xib */,
+				A273DD541D1692040026F267 /* Info.plist */,
+				A273DD4C1D1692040026F267 /* Supporting Files */,
+			);
+			path = NSConnectionClient;
+			sourceTree = "<group>";
+		};
+		A273DD4C1D1692040026F267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A273DD4D1D1692040026F267 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A273DD451D1692040026F267 /* NSConnectionClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A273DD571D1692040026F267 /* Build configuration list for PBXNativeTarget "NSConnectionClient" */;
+			buildPhases = (
+				A273DD421D1692040026F267 /* Sources */,
+				A273DD431D1692040026F267 /* Frameworks */,
+				A273DD441D1692040026F267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSConnectionClient;
+			productName = NSConnectionClient;
+			productReference = A273DD461D1692040026F267 /* NSConnectionClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A273DD3E1D1692040026F267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = pebble8888;
+				TargetAttributes = {
+					A273DD451D1692040026F267 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WAXDS76BRK;
+						DevelopmentTeamName = "KENICHI TAKASAKI";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A273DD411D1692040026F267 /* Build configuration list for PBXProject "NSConnectionClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A273DD3D1D1692040026F267;
+			productRefGroup = A273DD471D1692040026F267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A273DD451D1692040026F267 /* NSConnectionClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A273DD441D1692040026F267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A273DD501D1692040026F267 /* Assets.xcassets in Resources */,
+				A273DD531D1692040026F267 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A273DD421D1692040026F267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A273DD4E1D1692040026F267 /* main.m in Sources */,
+				A273DD4B1D1692040026F267 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A273DD511D1692040026F267 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A273DD521D1692040026F267 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A273DD551D1692040026F267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A273DD561D1692040026F267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A273DD581D1692040026F267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSConnectionClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pebble8888.NSConnectionClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A273DD591D1692040026F267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSConnectionClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pebble8888.NSConnectionClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A273DD411D1692040026F267 /* Build configuration list for PBXProject "NSConnectionClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A273DD551D1692040026F267 /* Debug */,
+				A273DD561D1692040026F267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A273DD571D1692040026F267 /* Build configuration list for PBXNativeTarget "NSConnectionClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A273DD581D1692040026F267 /* Debug */,
+				A273DD591D1692040026F267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A273DD3E1D1692040026F267 /* Project object */;
+}
